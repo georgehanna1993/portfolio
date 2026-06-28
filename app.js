@@ -1,6 +1,6 @@
 const translations = {
   en: {
-    brandSubtitle: "QA | Software | Electronics",
+    brandSubtitle: "QA | Maker | 3D Printing",
     navAbout: "About",
     navWork: "Work",
     navProjects: "Projects",
@@ -11,21 +11,21 @@ const translations = {
     largeText: "Larger text",
     highContrast: "High contrast",
     reduceMotion: "Reduce motion",
-    heroEyebrow: "Rameh, Israel | QA engineering, automation, electronics & 3D printing",
-    heroTitle: "Building reliable products where software meets hardware.",
+    heroEyebrow: "Rameh | software, wires, 3D prints, and useful little inventions",
+    heroTitle: "I like making ideas turn into real things.",
     heroLead:
-      "I am George Hanna, a QA Engineer and practical electrical engineer who turns ideas into tested, working products through automation, embedded systems, smart home builds, and 3D printing.",
-    viewProjects: "View projects",
+      "I test things, code things, wire things, print things, break them a little, fix them better, and turn curious ideas into useful products.",
+    viewProjects: "Explore the builds",
     downloadCv: "Download CV",
-    heroCardOneKicker: "Automation",
-    heroCardOne: "setup time reduction with Python tools",
-    heroCardTwoKicker: "Validation",
-    heroCardTwo: "lab stations maintained for large runs",
-    heroCardThreeKicker: "Maker stack",
+    heroCardOneKicker: "Less boring clicks",
+    heroCardOne: "setup time saved with homemade Python tools",
+    heroCardTwoKicker: "Test playground",
+    heroCardTwo: "stations, devices, logs, cables, and controlled chaos",
+    heroCardThreeKicker: "Favorite combo",
     heroCardThreeTitle: "Code + circuits + prints",
-    heroCardThree: "Arduino, ESP32, smart home systems and 3D design",
+    heroCardThree: "Arduino, ESP32, smart home ideas, and objects you can hold",
     aboutEyebrow: "About",
-    aboutTitle: "A builder with a verification mindset.",
+    aboutTitle: "I build like a maker and test like an engineer.",
     aboutBody:
       "<p>Hi, I am George Hanna, a software engineer with a background in practical electrical engineering and a passion for building innovative products that combine software, electronics, and 3D printing.</p><p>For five years, I worked at SanDisk / Western Digital in the System Design Verification team, validating Android-based embedded storage solutions. I developed Python automation tools, maintained large-scale validation environments, investigated complex system issues, and collaborated with firmware and software teams to support reliable product releases.</p><p>Outside of work, I design and manufacture 3D-printed products, build electronics projects with Arduino and ESP32, and create custom smart home solutions. What started as hobbies has become a major part of who I am, and I am working toward turning that builder energy into my professional career.</p>",
     location: "Location",
@@ -34,7 +34,7 @@ const translations = {
     languages: "Languages",
     languagesValue: "Arabic native, Hebrew fluent, English fluent",
     workEyebrow: "Experience",
-    workTitle: "Quality gates, automation, and release readiness.",
+    workTitle: "The serious part, but still useful.",
     jobTitle: "System Design Verification Engineer",
     jobBullets: [
       "Validated Android devices with embedded iNAND flash across staging and production release pipelines.",
@@ -44,21 +44,21 @@ const translations = {
       "Maintained 300+ lab PC stations and managed validation artifacts through JFrog Artifactory."
     ],
     projectsEyebrow: "Projects",
-    projectsTitle: "Software, electronics, and 3D work in one place.",
-    projectsIntro: "This section is ready for your GitHub projects, electronics builds, and touch-rotatable GLB models.",
+    projectsTitle: "A little shelf of things I make.",
+    projectsIntro: "Software projects, electronics experiments, and 3D models will live here like small interactive exhibits.",
     filterAll: "All",
     filterSoftware: "Software",
     filterElectronics: "Electronics",
     filterPrinting: "3D Printing",
     skillsEyebrow: "Skills",
-    skillsTitle: "A practical stack for testing and building.",
+    skillsTitle: "Tools I reach for when an idea starts moving.",
     educationEyebrow: "Education",
     educationTitle: "Software engineering foundation, electrical engineering practice.",
     degreeSoftware: "B.Sc. Software Engineering",
     degreeElectrical: "Practical Electrical Engineering",
     contactEyebrow: "Contact",
-    contactTitle: "Have a role, project, or prototype in mind?",
-    contactIntro: "Send a message, download the CV, or connect through GitHub and LinkedIn.",
+    contactTitle: "Want to build something together?",
+    contactIntro: "Send me an idea, a role, a prototype, or even a half-baked thought. I like those.",
     formName: "Name",
     formEmail: "Email",
     formMessage: "Message",
@@ -77,21 +77,21 @@ const translations = {
     largeText: "טקסט גדול",
     highContrast: "ניגודיות גבוהה",
     reduceMotion: "הפחתת תנועה",
-    heroEyebrow: "ראמה | QA, אוטומציה, אלקטרוניקה והדפסה תלת ממדית",
-    heroTitle: "בונה מוצרים אמינים בנקודת החיבור בין תוכנה לחומרה.",
+    heroEyebrow: "ראמה | קוד, חוטים, הדפסות ורעיונות קטנים שעובדים",
+    heroTitle: "אני אוהב להפוך רעיונות לדברים אמיתיים.",
     heroLead:
-      "אני ג'ורג' חנא, מהנדס QA והנדסאי חשמל מעשי, שמפתח רעיונות למוצרים עובדים ובדוקים דרך אוטומציה, מערכות משובצות, בית חכם והדפסה תלת ממדית.",
-    viewProjects: "צפייה בפרויקטים",
+      "אני בודק, מתכנת, מחבר, מדפיס, לפעמים שובר קצת, ואז מתקן טוב יותר עד שרעיון קטן הופך למשהו שימושי.",
+    viewProjects: "לטייל בין הבניות",
     downloadCv: "הורדת קורות חיים",
-    heroCardOneKicker: "אוטומציה",
+    heroCardOneKicker: "פחות קליקים משעממים",
     heroCardOne: "קיצור זמן ההגדרה בעזרת כלי Python",
-    heroCardTwoKicker: "ולידציה",
+    heroCardTwoKicker: "מגרש בדיקות",
     heroCardTwo: "עמדות מעבדה לתמיכה בהרצות גדולות",
-    heroCardThreeKicker: "עולם יצרני",
+    heroCardThreeKicker: "השילוב האהוב",
     heroCardThreeTitle: "קוד + מעגלים + הדפסות",
     heroCardThree: "Arduino, ESP32, בית חכם ותכנון תלת ממדי",
     aboutEyebrow: "אודות",
-    aboutTitle: "בונה עם חשיבה של בדיקות ואמינות.",
+    aboutTitle: "בונה כמו יוצר, בודק כמו מהנדס.",
     aboutBody:
       "<p>שלום, אני ג'ורג' חנא, מהנדס תוכנה עם רקע בהנדסת חשמל מעשית ותשוקה לבניית מוצרים חדשניים שמשלבים תוכנה, אלקטרוניקה והדפסה תלת ממדית.</p><p>במשך חמש שנים עבדתי ב-SanDisk / Western Digital בצוות System Design Verification, שם בדקתי פתרונות אחסון משובצים מבוססי Android. פיתחתי כלי אוטומציה ב-Python, תחזקתי סביבות ולידציה גדולות, חקרתי תקלות מערכת מורכבות ועבדתי עם צוותי Firmware ותוכנה כדי לתמוך בשחרור מוצרים אמינים.</p><p>מחוץ לעבודה אני מתכנן ומייצר מוצרים בהדפסה תלת ממדית, בונה פרויקטי אלקטרוניקה עם Arduino ו-ESP32, ומפתח פתרונות בית חכם מותאמים אישית. מה שהתחיל כתחביב הפך לחלק מרכזי ממני ולכיוון מקצועי שאני רוצה להמשיך לפתח.</p>",
     location: "מיקום",
@@ -100,7 +100,7 @@ const translations = {
     languages: "שפות",
     languagesValue: "ערבית שפת אם, עברית שוטפת, אנגלית שוטפת",
     workEyebrow: "ניסיון",
-    workTitle: "שערי איכות, אוטומציה ומוכנות לשחרור.",
+    workTitle: "החלק הרציני, אבל עדיין שימושי.",
     jobTitle: "System Design Verification Engineer",
     jobBullets: [
       "בדיקת מכשירי Android עם זיכרון iNAND משובץ בתהליכי Staging ו-Production.",
@@ -110,20 +110,20 @@ const translations = {
       "תחזוקת יותר מ-300 עמדות מעבדה וניהול ארטיפקטים דרך JFrog Artifactory."
     ],
     projectsEyebrow: "פרויקטים",
-    projectsTitle: "תוכנה, אלקטרוניקה ותלת ממד במקום אחד.",
+    projectsTitle: "מדף קטן של דברים שאני בונה.",
     projectsIntro: "האזור הזה מוכן לפרויקטי GitHub, פרויקטי אלקטרוניקה ומודלי GLB שניתן לסובב במגע או בעכבר.",
     filterAll: "הכל",
     filterSoftware: "תוכנה",
     filterElectronics: "אלקטרוניקה",
     filterPrinting: "הדפסה תלת ממדית",
     skillsEyebrow: "כישורים",
-    skillsTitle: "סט כלים מעשי לבדיקה ולבנייה.",
+    skillsTitle: "הכלים שאני שולף כשרעיון מתחיל לזוז.",
     educationEyebrow: "השכלה",
     educationTitle: "בסיס בהנדסת תוכנה לצד ניסיון מעשי בחשמל.",
     degreeSoftware: "B.Sc. בהנדסת תוכנה",
     degreeElectrical: "הנדסאי חשמל מעשי",
     contactEyebrow: "יצירת קשר",
-    contactTitle: "יש תפקיד, פרויקט או אבטיפוס על הפרק?",
+    contactTitle: "רוצים לבנות משהו ביחד?",
     contactIntro: "אפשר לשלוח הודעה, להוריד קורות חיים או להתחבר דרך GitHub ו-LinkedIn.",
     formName: "שם",
     formEmail: "אימייל",
@@ -143,21 +143,21 @@ const translations = {
     largeText: "نص أكبر",
     highContrast: "تباين عال",
     reduceMotion: "تقليل الحركة",
-    heroEyebrow: "الرامة | QA، أتمتة، إلكترونيات وطباعة ثلاثية الأبعاد",
-    heroTitle: "أبني منتجات موثوقة حيث تلتقي البرمجة مع الهاردوير.",
+    heroEyebrow: "الرامة | كود، أسلاك، طباعة وأفكار صغيرة تعمل",
+    heroTitle: "أحب تحويل الأفكار إلى أشياء حقيقية.",
     heroLead:
-      "أنا جورج حنا، مهندس QA وهندسائي كهرباء عملي، أحول الأفكار إلى منتجات مجربة وفعالة عبر الأتمتة، الأنظمة المدمجة، البيت الذكي والطباعة ثلاثية الأبعاد.",
-    viewProjects: "عرض المشاريع",
+      "أفحص، أبرمج، أوصل، أطبع، أكسر قليلا أحيانا، ثم أصلح بشكل أفضل حتى تصبح الفكرة شيئا مفيدا.",
+    viewProjects: "استكشف الأشياء",
     downloadCv: "تحميل السيرة الذاتية",
-    heroCardOneKicker: "أتمتة",
+    heroCardOneKicker: "نقرات مملة أقل",
     heroCardOne: "تقليل وقت إعداد الجهاز باستخدام أدوات Python",
-    heroCardTwoKicker: "تحقق",
+    heroCardTwoKicker: "ملعب اختبارات",
     heroCardTwo: "محطات مختبر لدعم تشغيلات كبيرة",
-    heroCardThreeKicker: "صناعة وابتكار",
+    heroCardThreeKicker: "الخليط المفضل",
     heroCardThreeTitle: "كود + دوائر + طباعة",
     heroCardThree: "Arduino و ESP32 وبيت ذكي وتصميم ثلاثي الأبعاد",
     aboutEyebrow: "نبذة",
-    aboutTitle: "صانع بعقلية تحقق وجودة.",
+    aboutTitle: "أبني كصانع وأفحص كمهندس.",
     aboutBody:
       "<p>مرحبا، أنا جورج حنا، مهندس برمجيات بخلفية في الهندسة الكهربائية العملية وشغف ببناء منتجات مبتكرة تجمع بين البرمجة، الإلكترونيات والطباعة ثلاثية الأبعاد.</p><p>عملت لخمس سنوات في SanDisk / Western Digital ضمن فريق System Design Verification، حيث اختبرت حلول تخزين مدمجة مبنية على Android. طورت أدوات أتمتة بلغة Python، حافظت على بيئات تحقق واسعة، حللت مشاكل نظام معقدة، وتعاونت مع فرق Firmware والبرمجة لدعم إصدارات موثوقة وعالية الجودة.</p><p>خارج العمل أصمم وأصنع منتجات مطبوعة ثلاثية الأبعاد، أبني مشاريع إلكترونية باستخدام Arduino وESP32، وأطور حلول بيت ذكي مخصصة. ما بدأ كهوايات أصبح جزءا مهما من هويتي واتجاها مهنيا أعمل على تطويره.</p>",
     location: "الموقع",
@@ -166,7 +166,7 @@ const translations = {
     languages: "اللغات",
     languagesValue: "العربية لغة أم، العبرية بطلاقة، الإنجليزية بطلاقة",
     workEyebrow: "خبرة",
-    workTitle: "بوابات جودة، أتمتة وجاهزية للإصدار.",
+    workTitle: "الجزء الجدي، لكنه مفيد أيضا.",
     jobTitle: "System Design Verification Engineer",
     jobBullets: [
       "اختبار أجهزة Android مع ذاكرة iNAND مدمجة ضمن مراحل Staging وProduction.",
@@ -176,20 +176,20 @@ const translations = {
       "صيانة أكثر من 300 محطة مختبر وإدارة ملفات التحقق عبر JFrog Artifactory."
     ],
     projectsEyebrow: "مشاريع",
-    projectsTitle: "برمجة، إلكترونيات وثلاثي الأبعاد في مكان واحد.",
+    projectsTitle: "رف صغير للأشياء التي أصنعها.",
     projectsIntro: "هذا القسم جاهز لمشاريع GitHub، مشاريع الإلكترونيات ونماذج GLB يمكن تدويرها باللمس أو بالفأرة.",
     filterAll: "الكل",
     filterSoftware: "برمجة",
     filterElectronics: "إلكترونيات",
     filterPrinting: "طباعة 3D",
     skillsEyebrow: "مهارات",
-    skillsTitle: "مجموعة أدوات عملية للاختبار والبناء.",
+    skillsTitle: "الأدوات التي أستخدمها عندما تبدأ فكرة بالتحرك.",
     educationEyebrow: "تعليم",
     educationTitle: "أساس في هندسة البرمجيات وخبرة عملية في الكهرباء.",
     degreeSoftware: "B.Sc. هندسة برمجيات",
     degreeElectrical: "هندسة كهرباء عملية",
     contactEyebrow: "تواصل",
-    contactTitle: "هل لديك وظيفة، مشروع أو نموذج أولي؟",
+    contactTitle: "هل نبني شيئا معا؟",
     contactIntro: "أرسل رسالة، حمل السيرة الذاتية أو تواصل عبر GitHub وLinkedIn.",
     formName: "الاسم",
     formEmail: "البريد الإلكتروني",
@@ -201,31 +201,31 @@ const translations = {
 
 const projects = [
   {
-    title: "Python Lab Setup Automation",
+    title: "Python Time Saver",
     type: "software",
     summary:
-      "A Python/Tkinter automation concept based on real validation work, focused on reducing repetitive Android device setup and improving lab throughput.",
+      "A small automation story about taking a repetitive lab task and turning it into a faster click-and-go tool.",
     tags: ["Python", "Tkinter", "ADB", "Automation"],
     link: "https://www.github.com/georgehanna1993/",
-    status: "Case study ready"
+    status: "Open the drawer"
   },
   {
-    title: "Smart Home Electronics",
+    title: "Smart Home Experiments",
     type: "electronics",
     summary:
-      "A future showcase for custom Arduino and ESP32 smart home builds, sensors, controls, automations, and practical hardware problem solving.",
+      "A home for Arduino and ESP32 experiments, sensors, buttons, smart home controls, and practical little inventions.",
     tags: ["ESP32", "Arduino", "IoT", "Automation"],
     link: "mailto:georgehanna1993@gmail.com",
-    status: "Add build photos"
+    status: "Coming with sparks"
   },
   {
-    title: "3D Product Model Viewer",
+    title: "3D Print Shelf",
     type: "printing",
     summary:
-      "Drop GLB files into assets/models and this card can become a touch-friendly 3D viewer for printed parts, enclosures, tools, and product designs.",
+      "A future touch-and-rotate shelf for printed parts, product ideas, enclosures, tools, and models that deserve to be played with.",
     tags: ["GLB", "3D Design", "Printing", "Prototype"],
     model: "",
-    status: "GLB ready"
+    status: "Touch-ready soon"
   }
 ];
 
@@ -264,6 +264,41 @@ const skillCloud = [
   "Arduino",
   "ESP32"
 ];
+
+
+
+function createSpark(x, y) {
+  if (html.classList.contains("reduce-motion")) return;
+  const spark = document.createElement("span");
+  spark.className = "spark";
+  spark.style.left = `${x}px`;
+  spark.style.top = `${y}px`;
+  spark.style.setProperty("--spin", `${Math.random() * 120 - 60}deg`);
+  document.body.append(spark);
+  setTimeout(() => spark.remove(), 720);
+}
+
+document.addEventListener("pointerdown", (event) => {
+  const funTarget = event.target.closest("a, button, .project-card, .chip-card, .tag-row span, .skill-cloud span");
+  if (funTarget) createSpark(event.clientX, event.clientY);
+});
+
+document.addEventListener("pointermove", (event) => {
+  if (html.classList.contains("reduce-motion")) return;
+  document.querySelectorAll(".playful-card, .project-card").forEach((card) => {
+    const rect = card.getBoundingClientRect();
+    const inside = event.clientX >= rect.left && event.clientX <= rect.right && event.clientY >= rect.top && event.clientY <= rect.bottom;
+    if (!inside) {
+      card.style.removeProperty("--tilt-x");
+      card.style.removeProperty("--tilt-y");
+      return;
+    }
+    const x = (event.clientX - rect.left) / rect.width - 0.5;
+    const y = (event.clientY - rect.top) / rect.height - 0.5;
+    card.style.setProperty("--tilt-x", `${(-y * 5).toFixed(2)}deg`);
+    card.style.setProperty("--tilt-y", `${(x * 6).toFixed(2)}deg`);
+  });
+});
 
 const storage = {
   get(key, fallback) {
