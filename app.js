@@ -409,7 +409,7 @@ const observer = new IntersectionObserver(
 document.querySelectorAll(".reveal").forEach((item) => observer.observe(item));
 document.querySelector("#year").textContent = new Date().getFullYear();
 
-const preferredTheme = storage.get("portfolio-theme", window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+const preferredTheme = storage.get("portfolio-theme", "light");
 setTheme(preferredTheme);
 
 ["large-text", "high-contrast", "reduce-motion"].forEach((name) => {
