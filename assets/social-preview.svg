@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#080b0f"/>
+  <circle cx="940" cy="80" r="250" fill="#35d0ba" opacity=".2"/>
+  <circle cx="220" cy="540" r="230" fill="#ffb84d" opacity=".18"/>
+  <g fill="none" stroke="rgba(255,255,255,.11)">
+    <path d="M80 120h1040M80 220h1040M80 320h1040M80 420h1040M80 520h1040"/>
+    <path d="M180 70v500M360 70v500M540 70v500M720 70v500M900 70v500"/>
+  </g>
+  <text x="90" y="250" fill="#f5f7f9" font-family="Arial, sans-serif" font-size="86" font-weight="800">George Hanna</text>
+  <text x="94" y="330" fill="#a9b3bd" font-family="Arial, sans-serif" font-size="34">QA Engineer | Software | Electronics | 3D Printing</text>
+  <text x="94" y="410" fill="#35d0ba" font-family="Arial, sans-serif" font-size="32" font-weight="700">Building reliable products where software meets hardware.</text>
+</svg>

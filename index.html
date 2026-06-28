@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>George Hanna | QA, Software, Electronics & 3D Printing</title>
+    <meta
+      name="description"
+      content="George Hanna builds reliable products through QA engineering, software automation, electronics, smart home systems, and 3D printing."
+    />
+    <meta name="theme-color" content="#0b0f14" />
+    <meta property="og:title" content="George Hanna | Portfolio" />
+    <meta
+      property="og:description"
+      content="QA Engineer, software automation builder, electronics maker, and 3D printing creator based in Rameh."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/social-preview.svg" />
+    <link rel="icon" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-surface>
+      <a class="brand" href="#home" aria-label="George Hanna home">
+        <span class="brand-mark">GH</span>
+        <span class="brand-copy">
+          <strong>George Hanna</strong>
+          <small data-i18n="brandSubtitle">QA | Software | Electronics</small>
+        </span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#work" data-i18n="navWork">Work</a>
+        <a href="#projects" data-i18n="navProjects">Projects</a>
+        <a href="#skills" data-i18n="navSkills">Skills</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <select class="language-select" id="languageSelect" aria-label="Language">
+          <option value="en">EN</option>
+          <option value="he">HE</option>
+          <option value="ar">AR</option>
+        </select>
+        <button class="icon-button" id="themeToggle" type="button" aria-label="Toggle theme" title="Toggle theme">
+          <span aria-hidden="true">◐</span>
+        </button>
+        <button class="icon-button" id="accessibilityToggle" type="button" aria-label="Accessibility settings" title="Accessibility">
+          <span aria-hidden="true">A</span>
+        </button>
+        <button class="icon-button menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
+    </header>
+
+    <div class="mobile-nav" id="mobileNav" data-surface>
+      <a href="#about" data-i18n="navAbout">About</a>
+      <a href="#work" data-i18n="navWork">Work</a>
+      <a href="#projects" data-i18n="navProjects">Projects</a>
+      <a href="#skills" data-i18n="navSkills">Skills</a>
+      <a href="#contact" data-i18n="navContact">Contact</a>
+    </div>
+
+    <aside class="accessibility-panel" id="accessibilityPanel" data-surface aria-label="Accessibility settings">
+      <div>
+        <strong data-i18n="accessibilityTitle">Accessibility</strong>
+        <button class="text-button" id="accessibilityClose" type="button" data-i18n="close">Close</button>
+      </div>
+      <label>
+        <input type="checkbox" id="largeTextToggle" />
+        <span data-i18n="largeText">Larger text</span>
+      </label>
+      <label>
+        <input type="checkbox" id="contrastToggle" />
+        <span data-i18n="highContrast">High contrast</span>
+      </label>
+      <label>
+        <input type="checkbox" id="motionToggle" />
+        <span data-i18n="reduceMotion">Reduce motion</span>
+      </label>
+    </aside>
+
+    <main id="main">
+      <section class="hero section" id="home">
+        <div class="hero-bg" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="hero-content reveal">
+          <p class="eyebrow" data-i18n="heroEyebrow">Rameh, Israel | QA engineering, automation, electronics & 3D printing</p>
+          <h1 data-i18n="heroTitle">Building reliable products where software meets hardware.</h1>
+          <p class="hero-lede" data-i18n="heroLead">
+            I am George Hanna, a QA Engineer and practical electrical engineer who turns ideas into tested, working products through automation, embedded systems, smart home builds, and 3D printing.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#projects" data-i18n="viewProjects">View projects</a>
+            <a class="secondary-button" href="assets/resume/george-hanna-cv.pdf" download data-i18n="downloadCv">Download CV</a>
+          </div>
+          <div class="hero-links" aria-label="Social links">
+            <a href="mailto:georgehanna1993@gmail.com">Email</a>
+            <a href="https://www.github.com/georgehanna1993/" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/georgehanna1993/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://www.instagram.com/georgehanna1993/" target="_blank" rel="noreferrer">Instagram</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal" aria-label="Interactive technology showcase">
+          <div class="device-shell">
+            <div class="device-topline">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="signal-grid">
+              <div class="chip-card">
+                <span data-i18n="heroCardOneKicker">Automation</span>
+                <strong>85%</strong>
+                <small data-i18n="heroCardOne">setup time reduction with Python tools</small>
+              </div>
+              <div class="chip-card">
+                <span data-i18n="heroCardTwoKicker">Validation</span>
+                <strong>300+</strong>
+                <small data-i18n="heroCardTwo">lab stations maintained for large runs</small>
+              </div>
+              <div class="chip-card wide">
+                <span data-i18n="heroCardThreeKicker">Maker stack</span>
+                <strong data-i18n="heroCardThreeTitle">Code + circuits + prints</strong>
+                <small data-i18n="heroCardThree">Arduino, ESP32, smart home systems and 3D design</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="aboutEyebrow">About</p>
+          <h2 data-i18n="aboutTitle">A builder with a verification mindset.</h2>
+        </div>
+        <div class="about-layout">
+          <div class="about-copy reveal" data-i18n-html="aboutBody"></div>
+          <div class="profile-panel reveal" data-surface>
+            <div class="profile-orbit" aria-hidden="true">
+              <span>QA</span>
+              <span>3D</span>
+              <span>IoT</span>
+            </div>
+            <dl>
+              <div>
+                <dt data-i18n="location">Location</dt>
+                <dd>Rameh</dd>
+              </div>
+              <div>
+                <dt data-i18n="experience">Experience</dt>
+                <dd data-i18n="experienceValue">5 years in system design verification</dd>
+              </div>
+              <div>
+                <dt data-i18n="languages">Languages</dt>
+                <dd data-i18n="languagesValue">Arabic native, Hebrew fluent, English fluent</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="work">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="workEyebrow">Experience</p>
+          <h2 data-i18n="workTitle">Quality gates, automation, and release readiness.</h2>
+        </div>
+        <div class="timeline reveal">
+          <article class="timeline-item" data-surface>
+            <div class="timeline-date">2020 - 2025</div>
+            <div>
+              <h3 data-i18n="jobTitle">System Design Verification Engineer</h3>
+              <p class="muted">SanDisk / Western Digital</p>
+              <ul data-i18n-list="jobBullets"></ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="projectsEyebrow">Projects</p>
+          <h2 data-i18n="projectsTitle">Software, electronics, and 3D work in one place.</h2>
+          <p data-i18n="projectsIntro">This section is ready for your GitHub projects, electronics builds, and touch-rotatable GLB models.</p>
+        </div>
+        <div class="filter-bar reveal" role="tablist" aria-label="Project filters">
+          <button class="filter active" type="button" data-filter="all" data-i18n="filterAll">All</button>
+          <button class="filter" type="button" data-filter="software" data-i18n="filterSoftware">Software</button>
+          <button class="filter" type="button" data-filter="electronics" data-i18n="filterElectronics">Electronics</button>
+          <button class="filter" type="button" data-filter="printing" data-i18n="filterPrinting">3D Printing</button>
+        </div>
+        <div class="project-grid reveal" id="projectGrid"></div>
+      </section>
+
+      <section class="section skills-section" id="skills">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="skillsEyebrow">Skills</p>
+          <h2 data-i18n="skillsTitle">A practical stack for testing and building.</h2>
+        </div>
+        <div class="skills-layout">
+          <div class="skill-bars reveal" id="skillBars" data-surface></div>
+          <div class="skill-cloud reveal" id="skillCloud"></div>
+        </div>
+      </section>
+
+      <section class="section education-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="educationEyebrow">Education</p>
+          <h2 data-i18n="educationTitle">Software engineering foundation, electrical engineering practice.</h2>
+        </div>
+        <div class="education-grid reveal">
+          <article data-surface>
+            <span>2015 - 2019</span>
+            <h3 data-i18n="degreeSoftware">B.Sc. Software Engineering</h3>
+            <p>ORT Braude College of Engineering</p>
+          </article>
+          <article data-surface>
+            <span>2011 - 2013</span>
+            <h3 data-i18n="degreeElectrical">Practical Electrical Engineering</h3>
+            <p>ORT Braude College of Engineering</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
+          <h2 data-i18n="contactTitle">Have a role, project, or prototype in mind?</h2>
+          <p data-i18n="contactIntro">Send a message, download the CV, or connect through GitHub and LinkedIn.</p>
+        </div>
+        <div class="contact-layout">
+          <form class="contact-form reveal" action="https://formsubmit.co/georgehanna1993@gmail.com" method="POST" data-surface>
+            <input type="hidden" name="_subject" value="Portfolio contact from georgehanna1993.github.io" />
+            <input type="hidden" name="_captcha" value="false" />
+            <label>
+              <span data-i18n="formName">Name</span>
+              <input name="name" type="text" autocomplete="name" required />
+            </label>
+            <label>
+              <span data-i18n="formEmail">Email</span>
+              <input name="email" type="email" autocomplete="email" required />
+            </label>
+            <label>
+              <span data-i18n="formMessage">Message</span>
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <button class="primary-button" type="submit" data-i18n="sendMessage">Send message</button>
+          </form>
+          <div class="contact-card reveal" data-surface>
+            <a href="mailto:georgehanna1993@gmail.com">georgehanna1993@gmail.com</a>
+            <a href="tel:+972524456638">+972 52 445 6638</a>
+            <a href="assets/resume/george-hanna-cv.pdf" download data-i18n="downloadCv">Download CV</a>
+            <a href="https://www.github.com/georgehanna1993/" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/georgehanna1993/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> George Hanna</p>
+      <a href="#home" data-i18n="backTop">Back to top</a>
+    </footer>
+  </body>
+</html>
